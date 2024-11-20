@@ -12,6 +12,7 @@ import android.os.VibrationEffect
 import android.os.Vibrator
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var webView: WebView
     private lateinit var vibrator: Vibrator // Переменная для вибрации
 
     override fun onCreate(savedInstanceState: Bundle?) {
